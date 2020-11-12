@@ -10,6 +10,7 @@ namespace _09.InfiniteLoop
             {
                 Console.WriteLine("Hey! I am Trapped");
             }
+            // ornek degisiklik
         }
     }
 }
