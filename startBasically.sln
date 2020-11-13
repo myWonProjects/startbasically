@@ -11,25 +11,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Rectangle", "Rectangle\0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.sizeOf", "sizeOf\02.sizeOf.csproj", "{54ADDE70-11A1-4199-8ED8-7C58A394C618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Variables", "Variables\05.Variables.csproj", "{A9DEDD34-F9B3-4CAD-A8BA-88E3FFA456EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Variables", "Variables\05.Variables.csproj", "{A9DEDD34-F9B3-4CAD-A8BA-88E3FFA456EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.AcceptValues", "AcceptValues\06.AcceptValues.csproj", "{727C2E0C-979F-4F99-95D8-1183E2BFF94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.AcceptValues", "AcceptValues\06.AcceptValues.csproj", "{727C2E0C-979F-4F99-95D8-1183E2BFF94D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.GetAreaCircle", "07.Literalls\07.GetAreaCircle.csproj", "{9EF407B5-7620-49AA-9DFC-EF9BD9F19BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.GetAreaCircle", "07.Literalls\07.GetAreaCircle.csproj", "{9EF407B5-7620-49AA-9DFC-EF9BD9F19BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.GetVoltage", "GerVoltage\08.GetVoltage.csproj", "{B7F7FF52-7FA8-48CF-9232-89DFBDFC0DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.GetVoltage", "GerVoltage\08.GetVoltage.csproj", "{B7F7FF52-7FA8-48CF-9232-89DFBDFC0DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.InfiniteLoop", "09.InfiniteLoop\09.InfiniteLoop.csproj", "{4A4AA1C9-9514-4CE7-8181-38D6AA68F259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.InfiniteLoop", "09.InfiniteLoop\09.InfiniteLoop.csproj", "{4A4AA1C9-9514-4CE7-8181-38D6AA68F259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.AS-Public", "10.AS-Public\10.AS-Public.csproj", "{4204C5FB-68D3-40A5-AAB8-A02DE98B5AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.AS-Public", "10.AS-Public\10.AS-Public.csproj", "{4204C5FB-68D3-40A5-AAB8-A02DE98B5AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.AS-Private", "11.AS-Private\11.AS-Private.csproj", "{1CBB5490-BE8D-4987-A8ED-C224214FF858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.AS-Private", "11.AS-Private\11.AS-Private.csproj", "{1CBB5490-BE8D-4987-A8ED-C224214FF858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.AS-Internal", "12.AS-Internal\12.AS-Internal.csproj", "{5846A56E-F111-4A61-96E6-09A2121DA2E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.AS-Internal", "12.AS-Internal\12.AS-Internal.csproj", "{5846A56E-F111-4A61-96E6-09A2121DA2E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.FindMaxNumber", "13.Methods\13.FindMaxNumber.csproj", "{90B3EA89-C99C-4C38-B018-1A26CC4B31DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.FindMaxNumber", "13.Methods\13.FindMaxNumber.csproj", "{90B3EA89-C99C-4C38-B018-1A26CC4B31DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.FindMaxinArray", "14.FindMaxinArray\14.FindMaxinArray.csproj", "{CB95F587-EF1E-4272-B6F4-9A78A0817F9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.FindMaxinArray", "14.FindMaxinArray\14.FindMaxinArray.csproj", "{CB95F587-EF1E-4272-B6F4-9A78A0817F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.Nullables", "Nullables\15.Nullables.csproj", "{36B1C752-FE60-42BA-9420-1DB24AB66848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.NumberArray", "NumberArray\16.NumberArray.csproj", "{465DA65C-0997-47EA-8DF6-456C910B6A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.Array", "17.Array\17.Array.csproj", "{4B04E72C-9412-44F9-B7D7-5494B60B4C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.StarsArray", "StarsArray\18.StarsArray.csproj", "{7A403F60-6D23-425E-9117-2E437C03E10D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.AnotherArray", "19.AnotherArray\19.AnotherArray.csproj", "{6F198D31-FA71-459C-BD78-7E1ABECF5CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +103,26 @@ Global
 		{CB95F587-EF1E-4272-B6F4-9A78A0817F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB95F587-EF1E-4272-B6F4-9A78A0817F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB95F587-EF1E-4272-B6F4-9A78A0817F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B1C752-FE60-42BA-9420-1DB24AB66848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B1C752-FE60-42BA-9420-1DB24AB66848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B1C752-FE60-42BA-9420-1DB24AB66848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B1C752-FE60-42BA-9420-1DB24AB66848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465DA65C-0997-47EA-8DF6-456C910B6A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465DA65C-0997-47EA-8DF6-456C910B6A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465DA65C-0997-47EA-8DF6-456C910B6A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465DA65C-0997-47EA-8DF6-456C910B6A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B04E72C-9412-44F9-B7D7-5494B60B4C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B04E72C-9412-44F9-B7D7-5494B60B4C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B04E72C-9412-44F9-B7D7-5494B60B4C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B04E72C-9412-44F9-B7D7-5494B60B4C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A403F60-6D23-425E-9117-2E437C03E10D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A403F60-6D23-425E-9117-2E437C03E10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A403F60-6D23-425E-9117-2E437C03E10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A403F60-6D23-425E-9117-2E437C03E10D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F198D31-FA71-459C-BD78-7E1ABECF5CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F198D31-FA71-459C-BD78-7E1ABECF5CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F198D31-FA71-459C-BD78-7E1ABECF5CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F198D31-FA71-459C-BD78-7E1ABECF5CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

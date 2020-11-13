@@ -19,7 +19,6 @@ namespace CalculatorApplication
                 result = num2;
                 return result;
             }
-
             else
             {
                 Console.WriteLine("They are equall");
