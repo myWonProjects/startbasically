@@ -35,6 +35,8 @@ namespace CalculatorApplication
             int ret;
             NumberManipulator n = new NumberManipulator();
 
+
+
             Console.WriteLine("Enter a number:");
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter a number:");
