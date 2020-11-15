@@ -14,9 +14,9 @@ namespace _19.AnotherArray
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    Console.Write(m[i, j] + "*");
-                    Console.WriteLine("{0}", m[i, j]);
-                    Console.WriteLine("*\t", j);
+                    Console.Write(m[i, j] + "\t");
+                   // Console.WriteLine("{0}", m[i, j]);
+                   //Console.WriteLine("*\t", j);
                     
                 }
 
