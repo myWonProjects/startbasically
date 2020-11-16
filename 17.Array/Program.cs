@@ -14,8 +14,8 @@ namespace _17.Array
             {
                 for (j = 0; j < 5; j++)
                 {
-                    Console.Write(n[i, j] + "*");
-                    Console.WriteLine("*", n[i, j]);
+                    Console.Write(n[i, j] + "/t");
+                   // Console.WriteLine("*", n[i, j]);
                 }
 
                 Console.WriteLine();
