@@ -2,37 +2,44 @@
 
 namespace StaticVarApplication
 {
-    class StaticVar
+    class WhatIsNumber
     {
-        public static int num;
-
-        public void count()
+        public void ThreeDigits()
         {
-            num++;
+            Console.WriteLine("This number is a 3 digit number");
         }
-        public int getNum()
+        public void TwoDigits()
         {
-            return num;
+            Console.WriteLine("This number is a 2 digit number"); 
+        }
+        public void Number()
+        {
+            Console.WriteLine("This is a number");
         }
     }
     class StaticTester
     {
         static void Main(string[] args)
         {
-            StaticVar s1 = new StaticVar();
-            StaticVar s2 = new StaticVar();
+            WhatIsNumber t1 = new WhatIsNumber();
+           
+            int A;
+            A =  Convert.ToInt32(Console.ReadLine());
 
-            s1.count();
-            s1.count();
-            s1.count();
+            if ( A >= 100)
+            {
+                t1.ThreeDigits();
+            }
+            else if ( A>=10 && A<100)
+            {
+                t1.TwoDigits();
+            }
+            else if( A<10)
+            {
+                t1.Number();
+            }
 
-            s2.count();
-            s2.count();
-            s2.count();
 
-            Console.WriteLine("Variable num for s1: {0}", s1.getNum());
-            Console.WriteLine("Variable num for s2: {0}", s2.getNum());
-            Console.ReadKey();
         }
     }
 }
