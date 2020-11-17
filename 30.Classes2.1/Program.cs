@@ -1,49 +1,56 @@
 ﻿using System;
 
-namespace BoxApplication
+namespace TriangleApplication
 {
-    class Quadrilateral        //this class is about 4 edges of shape
+    class Triangle
     {
-        private double shortEdge;  
-        private double longEdge;
+        private double a;    //edges of triangles
+        private double b; 
+        private double c;
+        private double height;
+        private double weight;
 
-        public int ShortEdge
+        public void setEdges(double edge1,double edge2, double edge3,double edge4,double edge5)
         {
-            get { return shortEdge; }
-            set { shortEdge = value; }
+            a = edge1;
+            b = edge2;
+            c = edge3;
+            height = edge4;
+            weight = edge5;
+        }
+       
+        public double setCircle()
+        {
+            return a + b + c ;
         }
 
-        public int LongEdge
+        public double setArea()
         {
-            get { return longEdge; }
-            set { longEdge = value; }
+            return (height * weight) / 2;
         }
-        public string Type
-        {
-            get
-            {
-                string type = "";
-                if (shortEdge == longEdge)
-                    type = "Square";
-                else
-                    type = "Rectangle";
-                return type;
-            }
-        }
+      
     }
     class Boxtester
     {
         static void Main(string[] args)
         {
-            Quadrilateral shape = new Quadrilateral();
-            shape.longEdge = 100;
-            shape.shortEdge = 100,
+            Triangle tri1 = new Triangle();    // Declare tri1
+            Triangle tri2 = new Triangle();
 
-            Console.WriteLine("{0}x{1}",
-            dortgen.ShorEdge, dortgen.LongEdge);
-            Console.WriteLine("{0}", dortgen.Type);
+            double resultCircle;   //it result of triangle's circle
+            double resultArea;     //it result of triangle's area
+
+           
+            tri1.setEdges(3.0, 4.0, 5.0, 4.0, 8.0);   //we send all size of triagles with a func.
+            
+
+            resultCircle = tri1.setCircle();         //we calculate circle but this func. is in class triangle
+            resultArea = tri1.setArea();
+
+            Console.WriteLine("RESULT -> Circle: {0} Area: {1}",resultCircle, resultArea);
 
 
+            Console.ReadKey();
         }
     }
 }
